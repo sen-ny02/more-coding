@@ -1,0 +1,31 @@
+body {
+    background: #22223b;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#grid-container {
+    box-shadow: none;
+    border-radius: 0;
+    overflow: hidden;
+    background: #23243a;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grid-cell {
+    width: 32px;
+    height: 32px;
+    background: #22223b;
+    border: 1px solid #2a2b38;
+    box-sizing: border-box;
+    transition: box-shadow 0.2s;
+    will-change: transform, background-color;
+    border-radius: 6px;
+}
